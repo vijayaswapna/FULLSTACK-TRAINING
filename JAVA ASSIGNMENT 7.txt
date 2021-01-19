@@ -1,0 +1,62 @@
+package com;
+
+import java.util.Scanner;
+public class Sorting
+{
+   public static void main(String[] args)
+   {
+      int number;
+      String str;
+      Scanner sc1 = new Scanner(System.in);
+      System.out.println("Please enter number of strings: ");
+      number = sc1.nextInt();
+      String[] names = new String[number];
+      Scanner sc2 = new Scanner(System.in);
+      System.out.println("Enter all strings: ");
+      for(int i = 0; i < number; i++)
+      {
+         names[i] = sc2.nextLine();
+      }
+      for(int j = 0; j < number; j++)
+      {
+         for(int k = j + 1; k < number; k++)
+         {
+            // java alphabetical sort
+            if(names[j].compareTo(names[k]) > 0)
+            {
+               str = names[j];
+               names[j] = names[k];
+               names[k] = str;
+            }
+         }
+      }
+      System.out.println("After sorting names in an alphabetical order: ");
+      for(int i = 0; i < number - 1; i++)
+      {
+         System.out.println(names[i]);
+      }
+      System.out.print(names[number - 1]);
+      sc1.close();
+      sc2.close();
+   }
+}
+      
+
+OUTPUT;
+
+
+
+Please enter number of strings: 
+5
+Enter all strings: 
+ram
+seetha
+anjini
+ravana
+laxman
+After sorting names in an alphabetical order: 
+anjini
+laxman
+ram
+ravana
+seetha
