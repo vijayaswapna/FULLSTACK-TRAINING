@@ -41,22 +41,3 @@ public class Sorting
    }
 }
       
-
-OUTPUT;
-
-
-
-Please enter number of strings: 
-5
-Enter all strings: 
-ram
-seetha
-anjini
-ravana
-laxman
-After sorting names in an alphabetical order: 
-anjini
-laxman
-ram
-ravana
-seetha
