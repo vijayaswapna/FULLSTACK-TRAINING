@@ -10,8 +10,8 @@ public class FileOperations {
 	public static void main(String[] args) throws Exception{
 		
 		
-		FileReader fr = new FileReader("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\File.txt");
-		FileWriter fw = new FileWriter("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\LowerCase.txt");
+		FileReader fr = new FileReader("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\File.txt");
+		FileWriter fw = new FileWriter("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\LowerCase.txt");
 		int ch;
 		while((ch=fr.read()) != -1) {	
 			 if (Character.isUpperCase(ch))
@@ -26,8 +26,8 @@ public class FileOperations {
 		
 		
 		
-		FileReader fr1 = new FileReader("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\File.txt");
-		FileWriter fw1 = new FileWriter("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\UpperCase.txt");
+		FileReader fr1 = new FileReader("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\File.txt");
+		FileWriter fw1 = new FileWriter("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\UpperCase.txt");
 		int ch1;
 		while((ch1=fr1.read()) != -1) {	
 			 if (Character.isLowerCase(ch1))
@@ -42,8 +42,8 @@ public class FileOperations {
 		
 		
 		
-		FileReader fr2 = new FileReader("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\File.txt");
-		FileWriter fw2 = new FileWriter("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\FirstLetterUpper.txt");
+		FileReader fr2 = new FileReader("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\File.txt");
+		FileWriter fw2 = new FileWriter("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\FirstLetterUpper.txt");
 		BufferedReader br2 = new BufferedReader(fr2);
 		
 		String line = null;
@@ -61,7 +61,7 @@ public class FileOperations {
 	
 		    
 		
-		FileReader fr3 = new FileReader("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\File.txt");
+		FileReader fr3 = new FileReader("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\File.txt");
 		BufferedReader br3 = new BufferedReader(fr3);
 		String line1;
 		int count=0;
@@ -76,7 +76,7 @@ public class FileOperations {
 		
 		
 		
-		FileReader fr4 = new FileReader("D:\kavan\work\assignment-files\fullstack\java Assignments\Assignment 10\\File.txt");
+		FileReader fr4 = new FileReader("C:\Users\Vijaya Swapna\Desktop\git FULLSTACK\FULLSTACK-TRAINING\JAVA Assignments\assignment10\\File.txt");
 		BufferedReader br4 = new BufferedReader(fr4);
 		String line2;
 		int count1=0;

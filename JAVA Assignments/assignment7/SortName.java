@@ -7,7 +7,7 @@ public class SortName
    public static void main(String[] args) 
    {
       String[] names = new String[4];
-      names[0] = "KAVAN";
+      names[0] = "SWAPNA";
       names[1] = "RAVAN";
       names[2] = "HOLMES";
       names[3] = "STEVE";
