@@ -1,0 +1,26 @@
+AIRPORT
+=========================================================================================
+http://localhost:9092/airport//viewAirport/id       ----get
+http://localhost:9092/airport/allAirport            ----get
+http://localhost:9092/airport/addAirport            ----post
+http://localhost:9092/airport/updateAirport         ----put... can modify name,location
+http://localhost:9092/airport/deleteAirport/id      ----delete
+
+
+USER
+==========================================================================================
+http://localhost:9092/user/createUser               ---post
+http://localhost:9092/user/readAllUsers             ---get
+http://localhost:9092/user/updateUser               ---put
+http://localhost:9092/user/searchUser/{id}          ---get
+http://localhost:9092/user/deleteUser/{id}          ---delete
+
+
+FLIGHT
+===========================================================================================
+http://localhost:9092/flight/addFlight             ---post
+http://localhost:9092/flight/viewFlight/id         ---get
+http://localhost:9092/flight/updateFlight          ---put
+http://localhost:9092/flight/allFlight             ---get
+http://localhost:9092/flight/deleteFlight/{id}     ---delete 
+

@@ -1,0 +1,8 @@
+npm install --save --only=dev @angular/cli@latest
+
+
+npm install -g @angular/cli@latest
+
+ng update
+
+ng update @angular/cli @angular/core @angular/cdk @angular/material  rxjs --allow-dirty --force
